@@ -1,0 +1,47 @@
+// Install latest npm version
+npm install npm@latest -g
+
+// Clean npm cache
+sudo npm cache clean -f
+
+// Show latest node.js versions
+nvm list available
+
+// Install a specific version of nede.js, (e.g. nvm install 14.14.0)
+nvm install *version*
+
+// Use a specific node.js version
+nvm use *version*
+
+// Install server dependencies
+npm install --save @nestjs/mongoose mongoose
+
+// Start application
+npm run start
+
+// View application in browser
+http://localhost:3000/
+
+// Generate new module
+nest generate module *module name*
+
+// Generate new service
+nest generate service *service name*
+
+// Generate controller 
+nest generate controller *contoller name*
+
+// Install Vue.js CLI
+npm install -g @vue/cli
+
+// Create new Vue.js project
+vue create blog-frontend
+
+// run development server
+npm run serve
+
+// Start application in Browser
+http://localhost:8080
+
+// Install Axios (promise-based HTTP client for the browser)
+npm install axios --save
